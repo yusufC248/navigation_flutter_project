@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-
 import 'detail_form_view.dart';
 import 'user_data.dart';
 
 class DisplayListUser extends StatelessWidget {
-  const DisplayListUser({Key? key}) : super(key: key);
+  const DisplayListUser({Key key}) : super(key: key);
+
+
 
   @override
   Widget build(BuildContext context) {

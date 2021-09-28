@@ -33,13 +33,20 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.amber,
+      backgroundColor: Colors.purple,
       body: Center(
-        child: Image.network("https://i.ibb.co/Kq5k6Td/foto-m-yusuf.jpg",
-        width: 200.0,
-          height: 100.0,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget> [
+            Image.network("https://i.ibb.co/Kq5k6Td/foto-m-yusuf.jpg",
+              width: 200.0,
+                height: 100.0,
+              ),
+            Text("Splashscreen gajelas",
+              style: TextStyle(color: Colors.white, fontSize: 24),
+            ),
+          ],
         ),
-
       ),
     );
   }

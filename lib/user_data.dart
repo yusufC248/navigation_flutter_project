@@ -6,11 +6,11 @@ class UserData{
   String photo;
 
   UserData({
-    required this.name,
-    required this.age,
-    required this.address,
-    required this.role,
-    required this.photo,
+    this.name,
+    this.age,
+    this.address,
+    this.role,
+    this.photo,
   });
 }
 
