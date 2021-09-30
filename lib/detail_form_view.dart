@@ -5,7 +5,7 @@ import 'user_data.dart';
 class FormDetail extends StatelessWidget {
   final UserData user;
 
-  const FormDetail({Key key, this.user}) : super(key: key);
+  const FormDetail({Key? key, required this.user}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {

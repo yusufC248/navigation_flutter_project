@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 class CustomForm extends StatelessWidget {
- final String value;
+ final String? value;
  final String label;
 
-  const CustomForm({Key key, this.value,  this.label}) : super(key: key);
+  const CustomForm({Key? key, this.value,  required this.label}) : super(key: key);
 
 
   @override

@@ -6,11 +6,11 @@ class UserData{
   String photo;
 
   UserData({
-    this.name,
-    this.age,
-    this.address,
-    this.role,
-    this.photo,
+    required this.name,
+    required this.age,
+    required this.address,
+    required this.role,
+    required this.photo,
   });
 }
 
@@ -49,5 +49,15 @@ var userList = [
     address: "Seoul City",
     role: "Singer",
     photo: "https://i.ibb.co/F3vYJ3h/jiso.jpg",
+  ),
+];
+
+var emptyUser = [
+  UserData(
+    name: "",
+    age: "",
+    photo: "https://i.ibb.co/kmVrCMX/no-image-found-360x250.png",
+    address: "",
+    role: ""
   ),
 ];
